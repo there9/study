@@ -1,0 +1,15 @@
+status: 200
+content-length: 748
+content-location: http://127.0.0.1:8181/restconf/config//opendaylight-inventory:nodes/node/openflow:1/table/0/
+set-cookie: JSESSIONID=1urgvqn5qjg48xa3gkeoc53gz;
+ Path=/restconf, rememberMe=deleteMe; Path=/restconf; Max-Age=0;
+ Expires=Fri, 17-Feb-2017 13:34:23 GMT
+expires: Thu, 01 Jan 1970 00:00:00 GMT
+vary: Accept-Encoding, User-Agent
+server: Jetty(8.1.19.v20160209)
+-content-encoding: gzip
+content-type: application/yang.data+json
+-varied-accept-encoding: gzip, deflate
+-varied-user-agent: Python-httplib2/0.9.1 (gzip)
+
+{"flow-node-inventory:table":[{"id":0,"flow":[{"id":"1","table_id":0,"installHw":false,"flags":"SEND_FLOW_REM","flow-name":"foo13","strict":false,"barrier":false,"idle-timeout":0,"priority":40,"hard-timeout":0,"match":{"in-port":"1"},"cookie":42,"instructions":{"instruction":[{"order":1,"apply-actions":{"action":[{"order":1,"output-action":{"max-length":100,"output-node-connector":"2"}}]}}]}},{"id":"0","table_id":0,"installHw":false,"flags":"SEND_FLOW_REM","flow-name":"foo1","strict":false,"barrier":false,"idle-timeout":0,"priority":40,"hard-timeout":0,"match":{"in-port":"2"},"cookie":42,"instructions":{"instruction":[{"order":1,"apply-actions":{"action":[{"order":1,"output-action":{"max-length":100,"output-node-connector":"1"}}]}}]}}]}]}
